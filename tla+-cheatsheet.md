@@ -115,7 +115,7 @@ IF P THEN e1 ELSE e2        \* if P is true, then e1 should be true; otherwise e
 
 []                          \* always: []P means that P is true for all states in all behaviors.
 <>                          \* eventually: <>P means that for every behavior, there is at least one state where P is true.
-~>                          \* leads-to: P ~> Q means that if there is some state where P is true, then either Q is true now or in some future state.
+~>                          \* leads-to: P ~> Q means that for any state in which P is true, Q must be true in that state or in some later state.
 []<>                        \* always-eventually-true: []<>P means that if P ever becomes false, it will eventually become true again.
 <>[]                        \* eventually-always-true: <>[]P means that once P is true, it stays true forever.
 ```
