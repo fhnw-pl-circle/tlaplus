@@ -1,2 +1,9 @@
 .DS_Store
 *.~
+
+**/*.toolbox/*.launch
+**/*.toolbox/*.pmap
+**/*.toolbox/**/*.tla
+**/*.toolbox/**/*.out
+**/*.toolbox/*_SnapShot_*/
+!**/*.toolbox/**/MC.tla
