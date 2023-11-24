@@ -11,7 +11,7 @@ define
     EventuallyConsistent == <>[](acc["alice"] + acc["bob"] = 10)
 end define;
         
-process Wire \in 1..2
+fair process Wire \in 1..2
     variables
         sender = "alice",
         receiver = "bob",
@@ -26,7 +26,7 @@ begin
         end if;
 end process;
 end algorithm *)
-\* BEGIN TRANSLATION (chksum(pcal) = "5c64d775" /\ chksum(tla) = "9b2bfebc")
+\* BEGIN TRANSLATION (chksum(pcal) = "7549bfd2" /\ chksum(tla) = "8fac5991")
 VARIABLES people, acc, pc
 
 (* define statement *)
@@ -70,7 +70,8 @@ Terminating == /\ \A self \in ProcSet: pc[self] = "Done"
 Next == (\E self \in 1..2: Wire(self))
            \/ Terminating
 
-Spec == Init /\ [][Next]_vars
+Spec == /\ Init /\ [][Next]_vars
+        /\ \A self \in 1..2 : WF_vars(Wire(self))
 
 Termination == <>(\A self \in ProcSet: pc[self] = "Done")
 
@@ -78,5 +79,5 @@ Termination == <>(\A self \in ProcSet: pc[self] = "Done")
 
 =============================================================================
 \* Modification History
-\* Last modified Mon Nov 13 09:41:09 CET 2023 by shu
+\* Last modified Fri Nov 24 21:06:08 CET 2023 by shu
 \* Created Thu Mar 23 10:43:10 CET 2023 by shu

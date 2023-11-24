@@ -12,9 +12,13 @@
 
 - EventuallyConsistent
 
+## fair process
+
+The `fair` specifies that the process does not stop until it gets to the end. If
+it is removed it leads to `stuttering`.
+
 ## Stuttering
 
 A process might just stop (simulating timeouts, network errors, ...).
 
-The way this example is specified, it is unavoidable. To fix it we would have to
-change the spec.
+The way this example is specified, it is unavoidable without using `fair`.
