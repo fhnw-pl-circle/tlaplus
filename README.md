@@ -22,3 +22,9 @@ The official way of using TLA+ is with the
 [TLA+ Toolbox](https://lamport.azurewebsites.net/tla/toolbox.html). I recommend
 downloading the latest pre-release from
 [github](https://github.com/tlaplus/tlaplus/releases).
+
+# Examples
+
+For reference, a [TLA+ cheatsheet](./tla+-cheatsheet.md) is provided.
+
+- [simple wire transfer](./examples/00_simple_wire_transfer/)
