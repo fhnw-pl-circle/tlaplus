@@ -46,3 +46,4 @@ For reference, a [TLA+ cheatsheet](./tla+-cheatsheet.md) is provided.
 
 - [simple wire transfer](./examples/00_simple_wire_transfer/)
 - [telephone](./examples/01_telephone/)
+- [knapsack](./examples/02_knapsack/)
