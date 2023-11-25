@@ -6,4 +6,8 @@
 **/*.toolbox/**/*.tla
 **/*.toolbox/**/*.out
 **/*.toolbox/*_SnapShot_*/
+**/*.toolbox/**/*.aux
+**/*.toolbox/**/*.log
+**/*.toolbox/**/*.pdf
+**/*.toolbox/**/*.tex
 !**/*.toolbox/**/MC.tla
