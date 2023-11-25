@@ -22,3 +22,6 @@ it is removed it leads to `stuttering`.
 A process might just stop (simulating timeouts, network errors, ...).
 
 The way this example is specified, it is unavoidable without using `fair`.
+
+See also Leslie Lamport's
+[explanation](https://lamport.azurewebsites.net/tla/stuttering.html).

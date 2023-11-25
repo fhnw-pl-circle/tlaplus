@@ -18,9 +18,19 @@ For more in depth information see for example the paper
 
 # Acknowledgements
 
-The examples are taken from Hillel Wayne's fantastic book
-`Practical TLA+ - Planning Driven Development` and follow the progression
-through its chapters.
+Built on the knowledge taken from the following sources:
+
+- Leslie Lamport's
+  [TLA+ Video Course](https://lamport.azurewebsites.net/video/videos.html).
+- Hillel Wayne's book
+  [Practical TLA+ - Planning Driven Development](https://link.springer.com/book/10.1007/978-1-4842-3829-5).
+- Leslie Lamport's
+  [PlusCal Tutorial](https://lamport.azurewebsites.net/tla/tutorial/home.html).
+- Leslie Lamport's book
+  [Specifying Systems](https://lamport.azurewebsites.net/tla/book-21-07-04.pdf).
+
+The examples are taken from `Practical TLA+` and follow the progression through
+its chapters.
 
 Also take a look at Leslie Lamport's
 [comments](https://lamport.azurewebsites.net/tla/practical-tla.html).
@@ -32,8 +42,8 @@ The official way of using TLA+ is with the
 downloading the latest pre-release from
 [github](https://github.com/tlaplus/tlaplus/releases).
 
-Some of the examples use the `PT` library, written for the aforementioned book.
-To installl it, download it from
+Some of the examples use the `PT` library, written for the `Practical TLA+`
+book. To installl it, download it from
 https://github.com/Apress/practical-tla-plus/raw/master/PT/PT.tla to a folder
 you can find again.
 
