@@ -4,11 +4,16 @@ TLA+ is a high-level language for modelling programs and systems. It was created
 by renowned computer scientist [Leslie Lamport](https://lamport.org/) at the end
 of the nineties.
 
+PlusCal is an imperative language which gets translated into TLA+. It has been
+designed to make it easier to specify distributed algorithms, especially when
+coming from a programming background, rather than a mathematical one. It was
+created by Leslie Lamport as well.
+
 # Why?
 
-The language can be used as testable pseudocode, making engineers more confident
-in the correctness of complicated system designs. Specifically changes to such
-systems can be reasoned about in a safer way.
+The languages can be used as testable pseudocode, making engineers more
+confident in the correctness of complicated system designs. Specifically changes
+to such systems can be reasoned about in a safer way.
 
 Additionally it can function as a high level technical specification (with the
 potential to replace some diagrams).
