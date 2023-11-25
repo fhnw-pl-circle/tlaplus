@@ -2,6 +2,9 @@ TLA+ cheatsheet, taken from
 [here](https://mbt.informal.systems/docs/tla_basics_tutorials/tla+cheatsheet.html)
 and extended with temporal operators.
 
+For a more thorough summary take a look at the
+[official cheatsheet](https://lamport.azurewebsites.net/tla/summary-standalone.pdf).
+
 ```
 (* Comments *)
 
