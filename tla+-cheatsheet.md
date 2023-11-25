@@ -121,4 +121,8 @@ IF P THEN e1 ELSE e2        \* if P is true, then e1 should be true; otherwise e
 ~>                          \* leads-to: P ~> Q means that for any state in which P is true, Q must be true in that state or in some later state.
 []<>                        \* always-eventually-true: []<>P means that if P ever becomes false, it will eventually become true again.
 <>[]                        \* eventually-always-true: <>[]P means that once P is true, it stays true forever.
+
+[A]_v                       \* always action operator: at every step either A happens or v stays the same.
+WF_v(A)                     \* weak fairness action operator: once A's preconditions are satisfied and stay true, its action will eventually occur, affecting variable v
+SF_v(A)                     \* strong fairness action operator: action A is taken eventually even if it is not continously enabled
 ```
