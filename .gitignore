@@ -1,13 +1,13 @@
 .DS_Store
 *.~
 
-**/*.toolbox/*.launch
+**/*.toolbox/*SnapShot_*.launch
 **/*.toolbox/*.pmap
 **/*.toolbox/**/*.tla
+**/*.toolbox/**/*.cfg
 **/*.toolbox/**/*.out
 **/*.toolbox/*_SnapShot_*/
 **/*.toolbox/**/*.aux
 **/*.toolbox/**/*.log
 **/*.toolbox/**/*.pdf
 **/*.toolbox/**/*.tex
-!**/*.toolbox/**/MC.tla

@@ -59,7 +59,7 @@ the folder with the PT library to `TLA+ library path locations`.
 
 For reference, a [TLA+ cheatsheet](./tla+-cheatsheet.md) is provided.
 
-- [simple wire transfer](./examples/00_simple_wire_transfer/)
-- [telephone](./examples/01_telephone/)
-- [knapsack](./examples/02_knapsack/)
-- [resources](./examples/03_resources/)
+- [simple wire transfer](./examples/simple_wire_transfer/)
+- [telephone](./examples/telephone/)
+- [knapsack](./examples/knapsack/)
+- [resources](./examples/resources/)
