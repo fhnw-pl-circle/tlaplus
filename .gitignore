@@ -6,6 +6,8 @@
 **/*.toolbox/**/*.tla
 **/*.toolbox/**/*.cfg
 **/*.toolbox/**/*.out
+**/*.toolbox/**/*.st
+**/*.toolbox/**/*.fp
 **/*.toolbox/*_SnapShot_*/
 **/*.toolbox/**/*.aux
 **/*.toolbox/**/*.log

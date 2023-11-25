@@ -59,6 +59,7 @@ the folder with the PT library to `TLA+ library path locations`.
 
 For reference, a [TLA+ cheatsheet](./tla+-cheatsheet.md) is provided.
 
+- [die hard jug problem](./examples/die_hard_jugs/)
 - [simple wire transfer](./examples/simple_wire_transfer/)
 - [telephone](./examples/telephone/)
 - [knapsack](./examples/knapsack/)
