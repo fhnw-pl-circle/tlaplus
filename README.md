@@ -64,3 +64,4 @@ For reference, a [TLA+ cheatsheet](./tla+-cheatsheet.md) is provided.
 - [telephone](./examples/telephone/)
 - [knapsack](./examples/knapsack/)
 - [resources](./examples/resources/)
+- [transaction commit](./examples/transaction_commit/)

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>two_phase_commit</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>toolbox.builder.TLAParserBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>toolbox.natures.TLANature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>transaction_commit.tla</name>
+			<type>1</type>
+			<location>/home/shu/Documents/fhnw/mse/01_HS2023/tlaplus_introduction/examples/transaction_commit/transaction_commit.tla</location>
+		</link>
+		<link>
+			<name>two_phase_commit.tla</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/two_phase_commit.tla</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
