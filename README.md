@@ -28,17 +28,13 @@ Built on the knowledge taken from the following sources:
 - Leslie Lamport's
   [TLA+ Video Course](https://lamport.azurewebsites.net/video/videos.html).
 - Hillel Wayne's book
-  [Practical TLA+ - Planning Driven Development](https://link.springer.com/book/10.1007/978-1-4842-3829-5).
+  [Practical TLA+ - Planning Driven Development](https://link.springer.com/book/10.1007/978-1-4842-3829-5)
+  (also take a look at Leslie Lamport's
+  [comments](https://lamport.azurewebsites.net/tla/practical-tla.html)).
 - Leslie Lamport's
   [PlusCal Tutorial](https://lamport.azurewebsites.net/tla/tutorial/home.html).
 - Leslie Lamport's book
   [Specifying Systems](https://lamport.azurewebsites.net/tla/book-21-07-04.pdf).
-
-The examples are taken from `Practical TLA+` and follow the progression through
-its chapters.
-
-Also take a look at Leslie Lamport's
-[comments](https://lamport.azurewebsites.net/tla/practical-tla.html).
 
 # Installation
 
