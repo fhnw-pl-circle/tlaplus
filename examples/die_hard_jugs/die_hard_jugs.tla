@@ -9,7 +9,7 @@ TypeOK == /\ small \in 0..3
 Init == /\ big   = 0 
         /\ small = 0
 
-FillSmall == /\ small' = 3 
+FillSmall == /\ small' = 3
              /\ big'   = big
 
 FillBig == /\ big'   = 5 
@@ -42,5 +42,5 @@ Next == \/ FillSmall
 
 =============================================================================
 \* Modification History
-\* Last modified Sat Nov 25 14:03:57 CET 2023 by shu
+\* Last modified Thu Dec 07 16:04:47 CET 2023 by shu
 \* Created Sat Nov 25 13:48:46 CET 2023 by shu

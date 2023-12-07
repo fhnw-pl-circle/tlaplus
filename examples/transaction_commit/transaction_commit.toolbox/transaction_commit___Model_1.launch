@@ -2,10 +2,10 @@
 <launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
     <stringAttribute key="configurationName" value="Model_1"/>
     <intAttribute key="distributedFPSetCount" value="0"/>
-    <stringAttribute key="distributedNetworkInterface" value="10.223.10.70"/>
+    <stringAttribute key="distributedNetworkInterface" value="192.168.1.116"/>
     <intAttribute key="distributedNodesCount" value="1"/>
     <stringAttribute key="distributedTLC" value="off"/>
-    <intAttribute key="fpIndex" value="25"/>
+    <intAttribute key="fpIndex" value="62"/>
     <intAttribute key="maxHeapSize" value="25"/>
     <stringAttribute key="modelBehaviorInit" value="TCInit"/>
     <stringAttribute key="modelBehaviorNext" value="TCNext"/>

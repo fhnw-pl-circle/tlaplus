@@ -26,7 +26,7 @@ begin
         end if;
 end process;
 end algorithm *)
-\* BEGIN TRANSLATION (chksum(pcal) = "b93a228c" /\ chksum(tla) = "8fac5991")
+\* BEGIN TRANSLATION (chksum(pcal) = "aa9fb4d" /\ chksum(tla) = "db3597aa")
 VARIABLES people, acc, pc
 
 (* define statement *)
@@ -71,7 +71,7 @@ Next == (\E self \in 1..2: Wire(self))
            \/ Terminating
 
 Spec == /\ Init /\ [][Next]_vars
-        /\ \A self \in 1..2 : WF_vars(Wire(self))
+        /\ \A self \in 1..2 : SF_vars(Wire(self))
 
 Termination == <>(\A self \in ProcSet: pc[self] = "Done")
 
@@ -79,5 +79,5 @@ Termination == <>(\A self \in ProcSet: pc[self] = "Done")
 
 =============================================================================
 \* Modification History
-\* Last modified Sat Nov 25 13:24:41 CET 2023 by shu
+\* Last modified Thu Dec 07 16:50:39 CET 2023 by shu
 \* Created Thu Mar 23 10:43:10 CET 2023 by shu

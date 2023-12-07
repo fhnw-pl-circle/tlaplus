@@ -72,11 +72,11 @@ TPSpec == TPInit /\ [][TPNext]_<<rmState, tmState, tmPrepared, msgs>>
 
 THEOREM TPSpec => []TPTypeOK
 
-INSTANCE transaction_commit 
+INSTANCE transaction_commit
 
 THEOREM TPSpec => TCSpec
 
 =============================================================================
 \* Modification History
-\* Last modified Wed Dec 06 10:56:52 CET 2023 by shu
+\* Last modified Thu Dec 07 16:36:00 CET 2023 by shu
 \* Created Wed Dec 06 10:49:11 CET 2023 by shu
