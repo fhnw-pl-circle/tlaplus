@@ -65,3 +65,5 @@ For reference, a [TLA+ cheatsheet](./tla+-cheatsheet.md) is provided.
 - [knapsack](./examples/knapsack/)
 - [resources](./examples/resources/)
 - [transaction commit](./examples/transaction_commit/)
+- [transaction commit](./examples/transaction_commit/)
+- [two-phase commit](./examples/two_phase_commit/)
