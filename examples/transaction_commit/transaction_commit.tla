@@ -6,7 +6,7 @@ VARIABLE rmState
 TCTypeOK == 
   rmState \in [RM -> {"working", "prepared", "committed", "aborted"}]
         
-TCInit ==   rmState = [r \in RM |-> "working"]
+TCInit == rmState = [r \in RM |-> "working"]
 
 canCommit == \A r \in RM : rmState[r] \in {"prepared", "committed"}
 
@@ -32,5 +32,5 @@ TCSpec == TCInit /\ [][TCNext]_rmState
 THEOREM TCSpec => [](TCTypeOK /\ TCConsistent)
 =============================================================================
 \* Modification History
-\* Last modified Wed Dec 06 10:24:59 CET 2023 by shu
+\* Last modified Thu Dec 07 16:13:28 CET 2023 by shu
 \* Created Wed Dec 06 10:24:53 CET 2023 by shu

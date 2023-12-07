@@ -2,6 +2,8 @@
 
 Model of resource managers doing transaction commits.
 
+![Resource Manager States](./rm_states.png)
+
 ## EXCEPT
 
 ```
